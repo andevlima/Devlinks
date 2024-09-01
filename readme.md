@@ -38,7 +38,7 @@ DevLinks is a link aggregator to use as an online business card.
 
 You can view the layout of this project through [THIS LINK](https://www.figma.com/community/file/1187422022288947321). It is necessary to have an account in [Figma](https://figma.com) to access it.
 
-## :memo: License
+##  License
 
 This project is under MIT license.
 
