@@ -1,7 +1,7 @@
 <h1 align="center"> DevLinks </h1>
 
 <p align="center">
-:us: Exclusive and free program, promoted by Rocketseat to teach WEB technologies.
+Exclusive and free program, promoted by Rocketseat to teach WEB technologies.
 </p>
 
 <p align="center">
