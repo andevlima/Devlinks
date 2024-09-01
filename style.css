@@ -41,7 +41,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   /* height: 712px; no css geralmente não se define altura, pq o conteúdo vai empurrando a caixa, e o documento vai ficando fluido */
   margin: 56px auto 0px;
   padding: 0 24px;
