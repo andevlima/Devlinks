@@ -19,7 +19,7 @@
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --surface-color-hover: rgba(0, 0, 0, 0.01);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
 }
@@ -33,6 +33,7 @@ body {
 
   /* forma shorthand/atalho */
   background: var(--bg-url) no-repeat top center/cover;
+  /* altura de body agora é todo o view height */
   height: 100vh;
 }
 
@@ -94,7 +95,7 @@ body * {
   animation: slide-in 0.3s forwards;
 }
 
-#switch button:hover{
+#switch button:hover {
   outline: 8px solid var(--highlight-color);
 }
 
@@ -139,7 +140,7 @@ ul li a {
 
 /* pseudo selector - hover é pra quando a seta do mouse estiver em cima do elemento */
 ul li a:hover {
-  border: 1.5px solid var(--text-color);
+  border: 1.9px solid var(--text-color);
   background: var(--surface-color-hover);
 }
 
@@ -168,6 +169,11 @@ footer {
   font-size: 14px;
   padding: 24px 0;
   text-align: center;
+}
+
+footer .icon {
+  font-size: 18px;
+  transform: translateY(25%);
 }
 
 /* media queries */
